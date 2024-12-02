@@ -1,13 +1,87 @@
 {
-  "version": 8,
-  "createdAt": 1696251981143,
-  "updatedAt": 1698038684564,
+  "version": 9,
+  "createdAt": 1724702459146,
+  "updatedAt": 1733130210229,
   "name": "dieselbaby-cyberpunk-theme",
   "id": "dieselbaby-cyberpunk-theme",
   "states": {
     "panes": {
       "_id": "panes",
-      "locked": false,
+      "locked": true,
+      "layout": [
+        {
+          "i": "chart",
+          "type": "chart",
+          "x": 0,
+          "y": 0,
+          "w": 20,
+          "h": 22,
+          "moved": false
+        },
+        {
+          "i": "stats",
+          "type": "stats",
+          "y": 10,
+          "x": 20,
+          "w": 4,
+          "h": 2,
+          "moved": false
+        },
+        {
+          "i": "counters",
+          "type": "counters",
+          "y": 6,
+          "x": 20,
+          "w": 4,
+          "h": 4,
+          "moved": false
+        },
+        {
+          "i": "stats copy 1",
+          "type": "stats",
+          "y": 0,
+          "x": 20,
+          "w": 4,
+          "h": 2,
+          "moved": false
+        },
+        {
+          "i": "trades-lite",
+          "type": "trades-lite",
+          "x": 20,
+          "y": 12,
+          "w": 4,
+          "h": 10,
+          "moved": false
+        },
+        {
+          "i": "trades",
+          "type": "trades",
+          "x": 20,
+          "y": 2,
+          "w": 4,
+          "h": 3,
+          "moved": false
+        },
+        {
+          "i": "quikstats",
+          "type": "stats",
+          "x": 20,
+          "y": 5,
+          "w": 4,
+          "h": 1,
+          "moved": false
+        },
+        {
+          "i": "website",
+          "type": "website",
+          "x": 0,
+          "y": 22,
+          "w": 24,
+          "h": 2,
+          "moved": false
+        }
+      ],
       "panes": {
         "chart": {
           "id": "chart",
@@ -61,7 +135,7 @@
           "id": "stats",
           "name": "quikstats",
           "type": "stats",
-          "zoom": 1,
+          "zoom": 1.25,
           "markets": [
             "BINANCE_FUTURES:btcbusd",
             "BINANCE_FUTURES:btcusd_perp",
@@ -109,54 +183,7 @@
           "id": "counters",
           "name": "running-count",
           "type": "counters",
-          "zoom": 0.875,
-          "markets": [
-            "BINANCE_FUTURES:btcbusd",
-            "BINANCE_FUTURES:btcusd_perp",
-            "BINANCE_FUTURES:btcusdt",
-            "BINANCE:btcbusd",
-            "BINANCE:btcusdc",
-            "BINANCE:btcusdt",
-            "BITFINEX:BTCF0:USTF0",
-            "BITFINEX:BTCUSD",
-            "BITFINEX:BTCUST",
-            "BITGET:BTCUSDT",
-            "BITGET:BTCUSDT_UMCBL",
-            "BITMEX:XBT_USDT",
-            "BITMEX:XBTUSD",
-            "BITMEX:XBTUSDT",
-            "BITSTAMP:btcusd",
-            "BITSTAMP:btcusdt",
-            "BYBIT:BTCUSD",
-            "BYBIT:BTCUSDC-SPOT",
-            "BYBIT:BTCUSDT",
-            "BYBIT:BTCUSDT-SPOT",
-            "COINBASE:BTC-USD",
-            "COINBASE:BTC-USDT",
-            "DERIBIT:BTC_USDC-PERPETUAL",
-            "DERIBIT:BTC-PERPETUAL",
-            "KRAKEN:PI_XBTUSD",
-            "KRAKEN:XBT/USD",
-            "KRAKEN:XBT/USDC",
-            "KRAKEN:XBT/USDT",
-            "KUCOIN:BTC-USDC",
-            "KUCOIN:BTC-USDT",
-            "KUCOIN:XBTUSDM",
-            "KUCOIN:XBTUSDTM",
-            "MEXC:BTC_USD",
-            "MEXC:BTC_USDT",
-            "MEXC:BTCUSDT",
-            "OKEX:BTC-USD-SWAP",
-            "OKEX:BTC-USDC",
-            "OKEX:BTC-USDC-SWAP",
-            "OKEX:BTC-USDT",
-            "OKEX:BTC-USDT-SWAP"
-          ]
-        },
-        "trades": {
-          "id": "trades",
-          "name": "tradelist",
-          "type": "trades",
+          "zoom": 1.125,
           "markets": [
             "BINANCE_FUTURES:btcbusd",
             "BINANCE_FUTURES:btcusd_perp",
@@ -204,7 +231,7 @@
           "id": "stats copy 1",
           "name": "bigvol",
           "type": "stats",
-          "zoom": 1.75,
+          "zoom": 2,
           "markets": [
             "BINANCE_FUTURES:btcbusd",
             "BINANCE_FUTURES:btcusd_perp",
@@ -247,55 +274,202 @@
             "OKEX:BTC-USDT",
             "OKEX:BTC-USDT-SWAP"
           ]
+        },
+        "trades-lite": {
+          "id": "trades-lite",
+          "name": "",
+          "type": "trades-lite",
+          "zoom": 1.25,
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITGET:BTCUSDT",
+            "BITGET:BTCUSDT_UMCBL",
+            "BITMEX:XBT_USDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdt",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDC-SPOT",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSDT-SPOT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:XBT/USD",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KUCOIN:BTC-USDC",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:XBTUSDM",
+            "KUCOIN:XBTUSDTM",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDT",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDC",
+            "OKEX:BTC-USDC-SWAP",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDT-SWAP"
+          ]
+        },
+        "trades": {
+          "id": "trades",
+          "name": "liquidations",
+          "type": "trades",
+          "zoom": 1.125,
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITGET:BTCUSDT",
+            "BITGET:BTCUSDT_UMCBL",
+            "BITMEX:XBT_USDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdt",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDC-SPOT",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSDT-SPOT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:XBT/USD",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KUCOIN:BTC-USDC",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:XBTUSDM",
+            "KUCOIN:XBTUSDTM",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDT",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDC",
+            "OKEX:BTC-USDC-SWAP",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDT-SWAP"
+          ]
+        },
+        "quikstats": {
+          "id": "quikstats",
+          "name": "quikstats",
+          "type": "stats",
+          "zoom": 1.25,
+          "settings": {
+            "granularity": 5000,
+            "window": 60000,
+            "enableChart": false,
+            "buckets": {
+              "trades": {
+                "id": "trades",
+                "name": "TRADES",
+                "input": "cbuy + csell",
+                "enabled": true,
+                "color": "rgba(255, 255, 255, .25)",
+                "precision": 2,
+                "type": "line"
+              },
+              "vold": {
+                "id": "vold",
+                "name": "VOLUME Δ",
+                "input": "vbuy - vsell",
+                "enabled": false,
+                "color": "#40d745",
+                "type": "area"
+              },
+              "tradesd": {
+                "id": "tradesd",
+                "name": "TRADES Δ",
+                "input": "cbuy - csell",
+                "enabled": true,
+                "color": "#2196f3",
+                "precision": 2,
+                "type": "line"
+              },
+              "1hliq": {
+                "id": "1hliq",
+                "name": "1H LIQUIDATIONS Δ",
+                "window": 3600000,
+                "input": "lbuy-lsell",
+                "enabled": true,
+                "color": "value>0?'#43a047':'#f44336'",
+                "conditionnalColor": true,
+                "type": "histogram"
+              }
+            }
+          },
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITGET:BTCUSDT",
+            "BITGET:BTCUSDT_UMCBL",
+            "BITMEX:XBT_USDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdt",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDC-SPOT",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSDT-SPOT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:XBT/USD",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KUCOIN:BTC-USDC",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:XBTUSDM",
+            "KUCOIN:XBTUSDTM",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDT",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDC",
+            "OKEX:BTC-USDC-SWAP",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDT-SWAP"
+          ]
+        },
+        "website": {
+          "id": "website",
+          "name": "diesel.baby",
+          "type": "website",
+          "markets": []
         }
       },
-      "layout": [
-        {
-          "i": "chart",
-          "type": "chart",
-          "x": 0,
-          "y": 0,
-          "w": 20,
-          "h": 24,
-          "moved": false
-        },
-        {
-          "i": "stats",
-          "type": "stats",
-          "y": 7,
-          "x": 20,
-          "w": 4,
-          "h": 3,
-          "moved": false
-        },
-        {
-          "i": "counters",
-          "type": "counters",
-          "y": 2,
-          "x": 20,
-          "w": 4,
-          "h": 5,
-          "moved": false
-        },
-        {
-          "i": "trades",
-          "type": "trades",
-          "y": 10,
-          "x": 20,
-          "w": 4,
-          "h": 13,
-          "moved": false
-        },
-        {
-          "i": "stats copy 1",
-          "type": "stats",
-          "y": 0,
-          "x": 20,
-          "w": 4,
-          "h": 2,
-          "moved": false
-        }
-      ]
+      "syncedWithParentFrame": []
     },
     "chart": {
       "indicatorsErrors": {},
@@ -321,7 +495,7 @@
           "createdAt": 1693242396260,
           "updatedAt": null,
           "series": [
-            "cvd copy 2"
+            "cvd"
           ],
           "unsavedChanges": true,
           "optionsDefinitions": {}
@@ -339,16 +513,16 @@
             "upColor": "rgb(8,1,108)",
             "downColor": "rgb(144,86,0)",
             "scaleMargins": {
-              "top": 0.75,
-              "bottom": 0.17
+              "top": 0.74,
+              "bottom": 0.18
             }
           },
           "id": "liquidations",
           "createdAt": 1693242396260,
           "updatedAt": null,
           "series": [
-            "liquidations copy 2",
-            "apz91thc"
+            "liquidations",
+            "6b98xyte"
           ],
           "unsavedChanges": true,
           "optionsDefinitions": {}
@@ -361,14 +535,14 @@
             "priceScaleId": "right",
             "priceFormat": {
               "auto": true,
-              "precision": 1,
-              "minMove": 0.1
+              "precision": 2,
+              "minMove": 0.01
             },
             "priceLineVisible": true,
             "lastValueVisible": true,
             "borderVisible": false,
-            "upColor": "rgb(0,121,20)",
-            "downColor": "rgb(146,0,0)",
+            "upColor": "rgb(0,180,30)",
+            "downColor": "rgb(193,8,8)",
             "borderUpColor": "rgb(59,202,109)",
             "borderDownColor": "rgb(239,67,82)",
             "wickUpColor": "rgb(6,238,29)",
@@ -376,18 +550,19 @@
             "useGaps": false,
             "useHeikinAshi": false,
             "scaleMargins": {
-              "top": 0.04,
-              "bottom": 0.26
+              "top": 0.03,
+              "bottom": 0.27
             }
           },
           "id": "price",
           "createdAt": 1693242396260,
-          "updatedAt": null,
+          "updatedAt": 1733124439423,
           "series": [
             "price"
           ],
-          "unsavedChanges": true,
-          "optionsDefinitions": {}
+          "unsavedChanges": false,
+          "optionsDefinitions": {},
+          "libraryId": "price"
         },
         "volume": {
           "enabled": true,
@@ -413,40 +588,253 @@
           "createdAt": 1693242396260,
           "updatedAt": null,
           "series": [
-            "volume copy 4",
-            "2i613jds"
+            "volume",
+            "e7ww2q29"
           ],
           "optionsDefinitions": {},
           "unsavedChanges": true
+        },
+        "_uic878tuv4zadepb": {
+          "id": "_uic878tuv4zadepb",
+          "libraryId": "liquidation-heatmap",
+          "name": "Liquidation Heatmap",
+          "script": "leverages = option(default=5|20|100,type=text)\nthreshold = option(default=5,type=range,min=0,max=200,log=true)\nfadeAmount = option(default=0.02,type=range,min=0,max=2,step=0.01)\nfadeStart = option(default=100,type=range,min=0,max=200,step=1)\nautoScale = option(default=0.39,type=range,min=0,max=2,step=0.01)\nautoScaleLength = option(default=200,type=range,min=1,max=200,step=1)\nautoRescale = option(default=0,type=range,min=0,max=1000,log=true)\nfixedScale = option(default=\"\",type=text,placeholder=\"empty = ATR\")\nstrength = option(default=0.25,type=range,min=0,max=10,step=0.001,log=true)\ndemultiplier = option(default=1,type=range,min=0,max=10,step=0.001,log=true)\nquote = option(default=null,type=list,options=[null, \"USD\", \"USDT\", \"TUSD\", \"USDC\"],rebuild=true)\nexchange = option(default=null,type=exchange,rebuild=true)\ntype = option(default=perp,type=list,options=[null, \"spot\", \"perp\"],rebuild=true)\ncolor0 = option(default=rgba(42,0,117,0),type=color)\ncolor1 = option(default=rgb(63,16,87),type=color)\ncolor2 = option(default=rgb(76,152,134),type=color)\ncolor3 = option(default=rgb(240,218,24),type=color)\nvolLength = option(default=1,type=range,min=1,max=200, step=1)\nuseHK = option(default=false,type=checkbox,description=\"Use heikinashi as source\")\nuseLog = option(default=false,type=checkbox)\nshowChanges = option(type=checkbox)\ndrawInfinite = option(default=true,type=checkbox,description=\"Draw beyond viewport\")\nuseLegacyLp  = option(default=true,type=checkbox)\nif (!liquidityAtPrices) {\n  // check if liquidityAtPrices isn't defined = initial run of the script\n\n  lastIndex = null\n  freeSlots = []\n  usedSlots = []\n  boundaries = {}\n  liquidityAtPrices = {}\n  indexOfPrices = {}\n  resistances = []\n  totalResistances = 0\n  supports = []\n  totalSupports = 0\n  pendingRedraws = []\n  var shortLeverage = options.leverages.toString().split(/[|,]/).map(a => +a)\n  var longLeverage = shortLeverage.map(a => -a)\n  resolvedLeverages = shortLeverage.concat(longLeverage)\n  steps = null\n  stepsIndex = null\n\n  for (var i = 0; i < series.length; i++) {\n    if (series[i].seriesType() !== 'BrokenArea') {\n      continue\n    }\n\n    // register each available series as a slot \n    freeSlots.push({\n    index: i,\n    redrawAt: 0\n    })\n\n    // boundaries: { [cellId: string]: *bar index* }\n    series[i].setExtensionsBoundaries(boundaries)\n  }\n}\n\n\n// process only on new candle\nif (bar.length === lastIndex) {\n  return\n}\n\n// get source data\nvar customSrc = source(quote=quote,type=type,exchange=exchange)\n\n// get ohlc, var makes it a ephemere, not stored throuhout multiple executions\nvar price = useHK ? avg_heikinashi(customSrc) : avg_ohlc_with_gaps(customSrc)\n\n// register as internal variable (without var) makes it persistent, and allow to use variable history ex priceRef[1]\npriceRef = price\n\n// grid size\nif (fixedScale) {\n  // absolute\n  steps = fixedScale\n} else {\n  // calculate avg of largest price range of candles\n  var priceRange = price.high - price.low\n\n  var atr = rma(priceRange, autoScaleLength);\n\n  if (bar.length < autoScaleLength) {\n    // not enough candles to determine avg price range of candle\n    return\n  }\n  \n  if (!steps || (autoRescale && bar.length > stepsIndex + autoRescale)) {\n    // calculate current grid cell size\n    steps = atr * autoScale\n\n    if (stepsIndex && autoRescale) {\n      var newLiquidityAtPrices = {};\n      var newIndexOfPrices = {};\n      var newResistances = [];\n      var newSupports = [];\n      pendingRedraws = []\n\n      // transport current grid data to the new cell size\n      Object.keys(liquidityAtPrices).forEach(price => {\n        var newPrice = Math.round(price / steps) * steps;\n        var oldCell = liquidityAtPrices[price];\n    \n        if (!newLiquidityAtPrices[newPrice]) {\n          newLiquidityAtPrices[newPrice] = { count: 0, strength: 0, top: newPrice + steps / 2, bottom: newPrice - steps / 2 };\n          newIndexOfPrices[newPrice] = [];\n        }\n    \n        // Aggregate strengths and index of prices\n        newLiquidityAtPrices[newPrice].strength += oldCell.strength;\n        newLiquidityAtPrices[newPrice].count += oldCell.count;\n        newIndexOfPrices[newPrice].push(indexOfPrices[price]);\n\n        if (oldCell.id) {\n          boundaries[oldCell.id] = bar.length;\n        }\n      });\n    \n      // Calculate new index of prices as the average of merged cells\n      Object.keys(newIndexOfPrices).forEach(price => {\n        const averageIndex = newIndexOfPrices[price].reduce((acc, cur, _, arr) => acc + cur / arr.length, 0);\n        newIndexOfPrices[price] = Math.round(averageIndex);\n        if (price > priceRef[1].close) {\n          newResistances.push(price);\n        } else {\n          newSupports.push(price);\n        }\n      \n        if (newLiquidityAtPrices[price].strength > threshold) {\n          pendingRedraws.push(price);\n        }\n      });\n    \n      // Update global variables\n      liquidityAtPrices = newLiquidityAtPrices;\n      indexOfPrices = newIndexOfPrices;\n      resistances = newResistances.sort((a, b) => a - b); // Ensure these are sorted\n      supports = newSupports.sort((a, b) => b - a)\n      pendingRedraws = pendingRedraws.sort((a, b) => (a - priceRef[1].close) - (b - priceRef[1].close))\n    }\n    \n    stepsIndex = bar.length\n  }\n}\n\nbuyVolume = source(vbuy, quote=quote,type=type,exchange=exchange)\nsellVolume = source(vsell, quote=quote,type=type,exchange=exchange)\nvol = buyVolume + sellVolume\n\n// since we only run this indi once per bar (for performance)\n// only analyze volume data of the previous bar (vol[1], buyVolume[1], sellVolume[1])\nconst avgBuyVolume = sma(buyVolume[1] || 0, volLength) || 0.0001;\nconst avgSellVolume = sma(sellVolume[1] || 0, volLength) || 0.0001;\n\nvar buyRatio = (buyVolume[1] || 0) / avgBuyVolume;\nvar sellRatio = (sellVolume[1] || 0) / avgSellVolume;\nif (useLog) {\n  buyRatio = Math.log(buyRatio + 1)\n  sellRatio = Math.log(sellRatio + 1)\n}\nvar dirtyResistances = false\nvar dirtySupports = false\n\nfor (let i = 0; i < resolvedLeverages.length; i++) {\n  var lev = (resolvedLeverages)[i]\n\n  var isResistance = lev > 0\n\n  var src = isResistance ? priceRef[1].high : priceRef[1].low\n\n  // liquidation price (from resolvedSrc + % to leverages[i]) \n  if (useLegacyLp) {\n    if (isResistance) {\n    var lp = src * (1 + (1 / Math.abs(lev)) + 0.005);\n    } else {\n    var lp = src * (1 - (1 / Math.abs(lev)) + 0.005);\n    }\n  } else {\n    var lp =(src + src * (100 / lev / 100))\n  }\n\n  // rounded lp median (the cell id)\n  var slp = (isResistance ? Math.floor(lp / steps) : Math.ceil(lp / steps)) * steps\n  \n  if (!liquidityAtPrices[slp]) {\n    // register cell\n    var top = slp + steps / 2\n    var bottom = slp - steps / 2\n    liquidityAtPrices[slp] = {\n      strength: 0,\n      index: bar.length,\n      top: top,\n      bottom: bottom,\n      count: 1\n    }\n    \n    if (isResistance) {\n      resistances.push(slp)\n      dirtyResistances = true\n    } else {\n      supports.push(slp)\n      dirtySupports = true\n    }\n  }\n  \n  // update cell\n  var currentIncrease = isResistance ? sellRatio : buyRatio\n  liquidityAtPrices[slp].strength += currentIncrease\n  liquidityAtPrices[slp].count += demultiplier\n  if (isResistance) {\n    totalResistances += currentIncrease\n  } else {\n    totalSupports += currentIncrease\n  }\n  \n  if (!indexOfPrices[slp]) {\n    indexOfPrices[slp] = bar.length\n  }\n\n  if (liquidityAtPrices[slp].strength > threshold) {\n    if (pendingRedraws.indexOf(slp) === -1) {\n      pendingRedraws.unshift(slp)\n    }\n  }\n}\ndirtyResistances && resistances.sort((a, b) => a - b)\ndirtySupports && supports.sort((a, b) => b - a)\n\nif (pendingRedraws.length) {\n\n  // round of used slot(s)\n  var slotsToRelease = []\n  for (var i = 0; i < pendingRedraws.length; i++) {\n    var cell = liquidityAtPrices[pendingRedraws[i]]\n\n    if (!cell) {\n      pendingRedraws.splice(i--, 1)\n      continue\n    }\n    \n    var slot = freeSlots.find(slot => slot.redrawAt < bar.length)\n\n    if (slot) {\n      var usedIndex = freeSlots.splice(freeSlots.indexOf(slot), 1)[0].index\n      usedSlots.push(usedIndex)\n\n      if (cell.id) {\n        boundaries[cell.id] = bar.length - 2\n      }\n      \n      cell.id = Math.random().toString()\n      cell.lastStrength = cell.strength\n      \n      var ratio = Math.max(0.01, Math.min(1, cell.strength * cell.count * (options.strength / 100)))\n      var color = interpolate(ratio, color0, color1, color2, color3)\n      \n      bar.series[series[usedIndex].id] ={\n        id: cell.id,\n        time: time - bar.timeframe,\n        lowerValue: cell.top,\n        higherValue: cell.bottom,\n        extendRight: true,\n        color: color\n      }\n\n      pendingRedraws.splice(i--, 1)\n      slotsToRelease.push(usedIndex)\n    } else {\n      break;\n    }\n  }\n  for (let i = 0; i < slotsToRelease.length; i++) {\n    var plotIndexToFree = usedSlots.splice(usedSlots.indexOf(slotsToRelease[i]), 1)[0]\n    \n    freeSlots.push({\n      index: plotIndexToFree,\n      redrawAt: bar.length +1\n      \n    })\n  }\n}\n\nfor (let i = 0; i < supports.length; i++) {\n  var slp = supports[i]\n\n  if (\n   price.low <= slp || liquidityAtPrices[slp].strength === 0\n  ) {\n    if (price.low <= slp) {\n      delete indexOfPrices[slp]\n    }\n\n    var pendingRedrawIndex = pendingRedraws.indexOf(slp)\n\n    if (pendingRedrawIndex !== -1) {\n      pendingRedraws.splice(pendingRedrawIndex, 1)\n    }\n\n    if (liquidityAtPrices[slp].id) {\n      boundaries[liquidityAtPrices[slp].id] = bar.length - 2\n    }\n\n    totalSupports -= liquidityAtPrices[slp].strength\n    delete liquidityAtPrices[slp]\n    supports.splice(i--, 1)\n  } else {\n    if (fadeAmount) {\n      if (bar.length > indexOfPrices[slp] + fadeStart) {\n        var currentFade = Math.min(fadeAmount, liquidityAtPrices[slp].strength)\n        liquidityAtPrices[slp].strength -= currentFade\n        totalSupports -= currentFade\n        var pendingRedrawIndex = pendingRedraws.indexOf(slp)\n        if (liquidityAtPrices[slp].strength > threshold) {\n          if (pendingRedrawIndex === -1) {\n            pendingRedraws.push(slp)\n          }\n        } else if (liquidityAtPrices[slp].id) {\n          boundaries[liquidityAtPrices[slp].id] = bar.length - 2\n          delete liquidityAtPrices[slp].id\n          if (pendingRedrawIndex !== -1) {\n            pendingRedraws.splice(pendingRedrawIndex, 1)\n          }\n        }\n      }\n    } else {\n      break;\n    }\n  }\n}\n\nfor (let i = 0; i < resistances.length; i++) {\n  var slp = resistances[i]\n\n  if (\n   price.high >= slp || liquidityAtPrices[slp].strength === 0\n  ) {\n    if (price.high >= slp) {\n      delete indexOfPrices[slp]\n    }\n\n    var pendingRedrawIndex = pendingRedraws.indexOf(slp)\n\n    if (pendingRedrawIndex !== -1) {\n      pendingRedraws.splice(pendingRedrawIndex, 1)\n    }\n\n    if (liquidityAtPrices[slp].id) {\n      boundaries[liquidityAtPrices[slp].id] = bar.length - 1\n    }\n\n    totalResistances -= liquidityAtPrices[slp].strength\n    delete liquidityAtPrices[slp]\n    resistances.splice(i--, 1)\n  } else {\n    if (fadeAmount) {\n      if (bar.length > indexOfPrices[slp] + fadeStart) {\n        var currentFade = Math.min(fadeAmount, liquidityAtPrices[slp].strength)\n        liquidityAtPrices[slp].strength -= currentFade\n        totalResistances -= currentFade\n        var pendingRedrawIndex = pendingRedraws.indexOf(slp)\n        if (liquidityAtPrices[slp].strength > threshold) {\n          if (pendingRedrawIndex === -1) {\n            pendingRedraws.push(slp)\n          }\n        } else if (liquidityAtPrices[slp].id) {\n          boundaries[liquidityAtPrices[slp].id] = bar.length - 2\n          delete liquidityAtPrices[slp].id\n          if (pendingRedrawIndex !== -1) {\n            pendingRedraws.splice(pendingRedrawIndex, 1)\n          }\n        }\n      }\n    } else {\n      break;\n    }\n  }\n}\n\n// set reference to bar index : avoid process next tick\nlastIndex = bar.length\n\n// define slots, 20 is reasonable amount\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\nbrokenarea(infinite=drawInfinite)\n\nif (showChanges) {\n  res = totalResistances\n  sup = totalSupports\n  var resChg = totalResistances - totalResistances[1]\n  var supChg = totalSupports - totalSupports[1]\n  histogram(\n    {\n      time: time,\n      value: resChg,\n      color: resChg > 0 ? 'green' : 'red'\n    },\n    priceScaleId=overlay1,\n    scaleMargins={top: 0.01, bottom: 0.95},\n    lastValueVisible=true,\n    title=\"R\"\n  )\n  histogram(\n    {\n      time: time,\n      value: supChg,\n      color: supChg > 0 ? 'green' : 'red'\n    },\n    priceScaleId=overlay2,\n    scaleMargins={top: 0.06, bottom: 0.9},\n    lastValueVisible=true,\n    title=\"S\"\n  )\n}",
+          "createdAt": 1704326463912,
+          "updatedAt": 1733129344348,
+          "options": {
+            "priceScaleId": "right",
+            "scaleMargins": {
+              "top": 0.03,
+              "bottom": 0.27
+            }
+          },
+          "optionsDefinitions": {
+            "leverages": {
+              "default": "5|20|100",
+              "type": "text"
+            },
+            "threshold": {
+              "default": 5,
+              "type": "range",
+              "min": 0,
+              "max": 200,
+              "log": true
+            },
+            "fadeAmount": {
+              "default": 0.02,
+              "type": "range",
+              "min": 0,
+              "max": 2,
+              "step": 0.01
+            },
+            "fadeStart": {
+              "default": 100,
+              "type": "range",
+              "min": 0,
+              "max": 200,
+              "step": 1
+            },
+            "autoScale": {
+              "default": 0.39,
+              "type": "range",
+              "min": 0,
+              "max": 2,
+              "step": 0.01
+            },
+            "autoScaleLength": {
+              "default": 200,
+              "type": "range",
+              "min": 1,
+              "max": 200,
+              "step": 1
+            },
+            "autoRescale": {
+              "default": 0,
+              "type": "range",
+              "min": 0,
+              "max": 1000,
+              "log": true
+            },
+            "fixedScale": {
+              "default": "",
+              "type": "text",
+              "placeholder": "empty = ATR"
+            },
+            "strength": {
+              "default": 0.25,
+              "type": "range",
+              "min": 0,
+              "max": 10,
+              "step": 0.001,
+              "log": true
+            },
+            "demultiplier": {
+              "default": 1,
+              "type": "range",
+              "min": 0,
+              "max": 10,
+              "step": 0.001,
+              "log": true
+            },
+            "quote": {
+              "default": 0,
+              "type": "list",
+              "options": [
+                null,
+                "USD",
+                "USDT",
+                "TUSD",
+                "USDC"
+              ],
+              "rebuild": true
+            },
+            "exchange": {
+              "default": 0,
+              "type": "exchange",
+              "rebuild": true
+            },
+            "type": {
+              "default": "perp",
+              "type": "list",
+              "options": [
+                null,
+                "spot",
+                "perp"
+              ],
+              "rebuild": true
+            },
+            "color0": {
+              "default": "rgba(42,0,117,0)",
+              "type": "color"
+            },
+            "color1": {
+              "default": "rgb(63,16,87)",
+              "type": "color"
+            },
+            "color2": {
+              "default": "rgb(76,152,134)",
+              "type": "color"
+            },
+            "color3": {
+              "default": "rgb(240,218,24)",
+              "type": "color"
+            },
+            "volLength": {
+              "default": 1,
+              "type": "range",
+              "min": 1,
+              "max": 200,
+              "step": 1
+            },
+            "useHK": {
+              "default": 0,
+              "type": "checkbox",
+              "description": "Use heikinashi as source"
+            },
+            "useLog": {
+              "default": 0,
+              "type": "checkbox"
+            },
+            "showChanges": {
+              "type": "checkbox",
+              "default": 0
+            },
+            "drawInfinite": {
+              "default": true,
+              "type": "checkbox",
+              "description": "Draw beyond viewport"
+            },
+            "useLegacyLp": {
+              "default": true,
+              "type": "checkbox"
+            }
+          },
+          "series": [
+            "liquidation-heatmap",
+            "115l3kpn",
+            "5bol7a21",
+            "1sz6wp9l",
+            "3pewy18c",
+            "b1f7gj4j",
+            "ozz6kjpx",
+            "x264i7c3",
+            "llfu2dil",
+            "nf3dzegl",
+            "lqpiabw6",
+            "hn9uzfbi",
+            "3vf265a7",
+            "fy20yeod",
+            "em7ra7an",
+            "or27g5zr",
+            "7ignhz86",
+            "z68p9zbd",
+            "2fanvpf9",
+            "8946sepl",
+            "tptizr4a",
+            "gcnwlyia"
+          ],
+          "displayName": "Liquidation Heatmap"
         }
       },
+      "indicatorOrder": [
+        "cvd",
+        "liquidations",
+        "price",
+        "volume",
+        "_uic878tuv4zadepb"
+      ],
       "priceScales": {
         "right": {
           "scaleMargins": {
-            "top": 0.04,
-            "bottom": 0.26
+            "top": 0.03,
+            "bottom": 0.27
           },
           "priceFormat": {
-            "precision": 1,
-            "minMove": 0.1
-          }
+            "precision": 2,
+            "minMove": 0.01
+          },
+          "indicators": [
+            "Price",
+            "Liquidation Heatmap"
+          ]
         },
         "cvd": {
           "scaleMargins": {
             "top": 0.84,
             "bottom": 0
-          }
+          },
+          "indicators": [
+            "CVD"
+          ]
         },
         "volume_liquidations": {
           "scaleMargins": {
-            "top": 0.75,
-            "bottom": 0.17
-          }
+            "top": 0.74,
+            "bottom": 0.18
+          },
+          "indicators": [
+            "Liquidations"
+          ]
         },
         "volume": {
           "scaleMargins": {
             "top": 0.84,
             "bottom": 0
+          },
+          "indicators": [
+            "Volume"
+          ]
+        },
+        "overlay1": {
+          "scaleMargins": {
+            "top": 0.01,
+            "bottom": 0.95
+          }
+        },
+        "overlay2": {
+          "scaleMargins": {
+            "top": 0.06,
+            "bottom": 0.9
           }
         }
       },
@@ -459,18 +847,19 @@
       "showLegend": true,
       "fillGapsWithEmpty": true,
       "showHorizontalGridlines": true,
-      "horizontalGridlinesColor": "rgba(86,171,255,0.07)",
+      "horizontalGridlinesColor": "rgba(152,201,249,0.1)",
       "showVerticalGridlines": true,
-      "verticalGridlinesColor": "rgba(86,210,255,0.07)",
+      "verticalGridlinesColor": "rgba(166,227,255,0.08)",
       "showWatermark": false,
       "watermarkColor": "rgba(224,253,134,0.02)",
       "showBorder": true,
-      "borderColor": "rgb(255,64,188)",
+      "borderColor": "rgb(255,0,166)",
+      "textColor": "rgb(236,223,123)",
       "showLeftScale": false,
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 4.9038022719094725,
+      "barSpacing": 1.130462378944267,
       "_id": "chart",
       "navigationState": {
         "tab": "options",
@@ -488,11 +877,11 @@
       "autoHideHeaders": true,
       "autoHideNames": true,
       "theme": "dark",
-      "backgroundColor": "rgb(15,10,44)",
-      "textColor": "rgb(25,116,253)",
-      "buyColor": "rgb(0,253,8)",
-      "sellColor": "rgb(235,0,0)",
-      "timezoneOffset": 0,
+      "backgroundColor": "rgb(17,16,22)",
+      "textColor": "rgb(95,220,254)",
+      "buyColor": "rgb(3,119,7)",
+      "sellColor": "rgb(116,1,1)",
+      "timezoneOffset": -28800000,
       "useAudio": false,
       "audioVolume": 1,
       "audioFilters": {
@@ -518,7 +907,10 @@
         "indicator-right-scale",
         "indicator-right-default",
         "indicator-right-format",
-        "indicator-right-colors"
+        "indicator-right-colors",
+        "trades-liquidations",
+        "trades-preferences",
+        "trades-columns"
       ],
       "searchTypes": {
         "recentSearches": true,
@@ -722,7 +1114,8 @@
       "alertsLineWidth": 2,
       "alertsClick": false,
       "alertSound": null,
-      "showThresholdsAsTable": true
+      "showThresholdsAsTable": true,
+      "indicatorDialogNavigation": "{\"optionsQuery\":\"\",\"editorOptions\":{},\"columnWidth\":240,\"tab\":\"options\"}"
     },
     "stats": {
       "granularity": 5000,
@@ -760,7 +1153,7 @@
           "name": "1H LIQUIDATIONS Δ",
           "window": 3600000,
           "input": "lbuy-lsell",
-          "enabled": true,
+          "enabled": false,
           "color": "value>0?'#43a047':'#f44336'",
           "conditionnalColor": true,
           "type": "histogram"
@@ -780,104 +1173,6 @@
       ],
       "count": false,
       "_id": "counters"
-    },
-    "trades": {
-      "liquidations": [
-        {
-          "id": "liquidation_threshold",
-          "amount": 9045,
-          "buyColor": "rgba(54,32,202,0.5)",
-          "sellColor": "rgba(184,110,1,0.5)",
-          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
-          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
-        },
-        {
-          "id": "liquidation_significant",
-          "amount": 18090,
-          "buyColor": "rgba(68,40,255,0.8)",
-          "sellColor": "rgba(220,132,1,0.8)",
-          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
-          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')",
-          "buy": "rgb(68,40,255)",
-          "sell": "rgb(220,132,1)"
-        },
-        {
-          "id": "liquidation_huge",
-          "amount": 36180,
-          "buyGif": null,
-          "sellGif": null,
-          "buyColor": "rgba(68,40,255,1)",
-          "sellColor": "rgba(220,132,1,1)",
-          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
-          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
-        },
-        {
-          "id": "liquidation_rare",
-          "amount": 180900,
-          "buyGif": "explosion",
-          "sellGif": "explosion",
-          "buyColor": "rgb(69,54,243)",
-          "sellColor": "rgb(220,95,0)",
-          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
-          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
-        }
-      ],
-      "thresholds": [
-        {
-          "id": "threshold",
-          "amount": 18090,
-          "buyColor": "rgba(0,155,5,0.5)",
-          "sellColor": "rgba(118,1,1,0.5)",
-          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
-          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
-        },
-        {
-          "id": "significant",
-          "amount": 45225,
-          "buyColor": "rgba(0,253,8,0.8)",
-          "sellColor": "rgba(167,2,2,0.8)",
-          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
-          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)",
-          "buy": "rgb(0,208,7)",
-          "sell": "rgb(164,6,6)"
-        },
-        {
-          "id": "huge",
-          "amount": 180900,
-          "buyGif": null,
-          "sellGif": null,
-          "buyColor": "rgba(0,253,8,1)",
-          "sellColor": "rgba(167,2,2,1)",
-          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
-          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
-        },
-        {
-          "id": "rare",
-          "amount": 1809000,
-          "buyGif": "jackpot money",
-          "sellGif": "red alert",
-          "buyColor": "rgba(128,254,128,1)",
-          "sellColor": "rgba(193,128,128,1)",
-          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
-          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
-        }
-      ],
-      "audioThreshold": null,
-      "multipliers": {},
-      "maxRows": "900",
-      "muted": false,
-      "audioPitch": null,
-      "audioVolume": null,
-      "showPairs": false,
-      "showTrades": true,
-      "showLiquidations": true,
-      "showLogos": true,
-      "monochromeLogos": false,
-      "showTimeAgo": true,
-      "showPrices": true,
-      "showHistograms": true,
-      "thresholdsMultipler": 0.67,
-      "_id": "trades"
     },
     "stats copy 1": {
       "granularity": 5000,
@@ -968,13 +1263,13 @@
         "disabled": false
       },
       "GATEIO": {
-        "disabled": true
+        "disabled": false
       },
       "HITBTC": {
         "disabled": true
       },
       "HUOBI": {
-        "disabled": true
+        "disabled": false
       },
       "KRAKEN": {
         "disabled": false
@@ -989,15 +1284,249 @@
         "disabled": false
       },
       "PHEMEX": {
-        "disabled": true
+        "disabled": false
       },
       "POLONIEX": {
         "disabled": true
       },
       "UNISWAP": {
-        "disabled": true
+        "disabled": false
       },
       "_id": "exchanges"
+    },
+    "trades-lite": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 50000,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 100000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 200000,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 1000000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 25000,
+          "buyColor": "rgb(104,218,109)",
+          "sellColor": "rgb(248,2,2)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 100000,
+          "buyColor": "rgba(6,152,13,0.8)",
+          "sellColor": "rgba(177,0,0,0.8)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 500000,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgb(2,108,7)",
+          "sellColor": "rgb(101,0,0)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 10000000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(0,39,1)",
+          "sellColor": "rgb(52,1,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "maxRows": "1000",
+      "muted": false,
+      "audioPitch": null,
+      "audioVolume": null,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": false,
+      "thresholdsMultipler": 1,
+      "_id": "trades-lite"
+    },
+    "trades": {
+      "liquidations": [
+        {
+          "id": "liquidation_significant",
+          "amount": 10000,
+          "buyColor": "rgb(2,147,9)",
+          "sellColor": "rgb(162,1,1)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 50000,
+          "buyGif": "jubilation",
+          "sellGif": "agony",
+          "buyColor": "rgb(0,109,5)",
+          "sellColor": "rgb(129,0,0)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 125000,
+          "buyGif": "brickwall",
+          "sellGif": "bullfight",
+          "buyColor": "rgb(1,60,1)",
+          "sellColor": "rgb(96,2,2)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 16000.000000000007,
+          "buyColor": "rgba(119, 148, 92, 0.25)",
+          "sellColor": "rgba(239, 67, 82, 0.25)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 40000.00000000002,
+          "buyColor": "rgb(100, 157, 102)",
+          "sellColor": "rgb(239, 67, 82)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 160000.0000000001,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgb(59, 202, 109)",
+          "sellColor": "rgb(235, 30, 47)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 1600000.0000000007,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(0, 255, 127)",
+          "sellColor": "rgb(217, 31, 28)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": null,
+      "audioVolume": null,
+      "showPairs": false,
+      "showTrades": false,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": false,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 0.16,
+      "showAvgPrice": true,
+      "_id": "trades"
+    },
+    "quikstats": {
+      "granularity": 5000,
+      "window": 60000,
+      "enableChart": false,
+      "buckets": {
+        "trades": {
+          "id": "trades",
+          "name": "TRADES",
+          "input": "cbuy + csell",
+          "enabled": false,
+          "color": "rgba(255, 255, 255, .25)",
+          "precision": 2,
+          "type": "line",
+          "conditionnalColor": false
+        },
+        "vold": {
+          "id": "vold",
+          "name": "VOLUME Δ",
+          "input": "vbuy - vsell",
+          "enabled": false,
+          "color": "#40d745",
+          "type": "area"
+        },
+        "tradesd": {
+          "id": "tradesd",
+          "name": "TRADES Δ",
+          "input": "cbuy - csell",
+          "enabled": false,
+          "color": "#2196f3",
+          "precision": 2,
+          "type": "line"
+        },
+        "1hliq": {
+          "id": "1hliq",
+          "name": "1H LIQUIDATIONS Δ",
+          "window": 3600000,
+          "input": "lbuy-lsell",
+          "enabled": true,
+          "color": "value>0?'#43a047':'#f44336'",
+          "conditionnalColor": true,
+          "type": "histogram"
+        }
+      },
+      "_id": "quikstats"
+    },
+    "website": {
+      "url": "https://diesel.baby/crawler.html",
+      "reloadTimer": 0,
+      "interactive": true,
+      "invert": false,
+      "locked": false,
+      "_id": "website"
     }
   }
 }
